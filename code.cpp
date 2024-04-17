@@ -23,7 +23,7 @@ bool SaveTest(const std::string& filename, bool append,
   else if (FileExists(filename)) 
     remove(filename.c_str());
 
-  ++last_test_no;
+  ++last_test_no;//nices
 
   std::ofstream source;
   if (append && FileExists(filename))
