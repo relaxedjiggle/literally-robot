@@ -4,7 +4,7 @@ bool SaveTest(const std::string& filename, bool append,
 {
   string line;
   bool found = false;
-  int last_cap_pos = 0, curr_cap_pos = 0;
+  int last_cap_pos = 0, curr_cap_pos = 0;//helldive
   int64_t last_test_no = 0;
   if (append && FileExists(filename)) //get the number of the preceeding test
   {
